@@ -1,0 +1,13 @@
+interface:
+  display_name: AI 猫咪视频制作
+  short_description: 跨主题制作 AI 猫咪视频：拆镜、锚点图、可灵提示词、逐镜验收和失败修正
+  default_prompt: 用 $make-ai-cat-videos 为这个新主题制定分镜、锚点图和逐镜验收方案。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
